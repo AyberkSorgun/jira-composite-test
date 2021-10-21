@@ -1,0 +1,17 @@
+name: Create Issue in Jira when to-jira label added
+
+on:
+  workflow_dispatch:
+
+jobs:
+  jira:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Test composite one
+      uses: hazelcast/hazelcast-tpm/jira@v2
+      with:
+        JIRA_BASE_URL: "hazelcast.atlassian.net"
+        JIRA_USER_EMAIL: "ayberk@hazelcast.com"
+        JIRA_API_TOKEN: "EIyjMgZ5BsTC16KV3peF8EEA"
+        TARGET_JIRA_PROJECT: "DEG"
+        JIRRA_LABEL: "from-ayberks-repo"
