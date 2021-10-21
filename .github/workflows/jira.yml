@@ -14,4 +14,4 @@ jobs:
         JIRA_USER_EMAIL: "ayberk@hazelcast.com"
         JIRA_API_TOKEN: "EIyjMgZ5BsTC16KV3peF8EEA"
         TARGET_JIRA_PROJECT: "DEG"
-        JIRRA_LABEL: "from-ayberks-repo"
+        JIRA_LABEL: "from-ayberks-repo"
