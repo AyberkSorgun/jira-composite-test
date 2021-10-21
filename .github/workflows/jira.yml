@@ -12,6 +12,6 @@ jobs:
       with:
         JIRA_BASE_URL: "https://hazelcast.atlassian.net"
         JIRA_USER_EMAIL: "ayberk@hazelcast.com"
-        JIRA_API_TOKEN: "EIyjMgZ5BsTC16KV3peF8EEA"
+        JIRA_API_TOKEN: "mLtmOzgIRErOmyvclbadB4F2"
         TARGET_JIRA_PROJECT: "DEG"
         JIRA_LABEL: "from-ayberks-repo"
